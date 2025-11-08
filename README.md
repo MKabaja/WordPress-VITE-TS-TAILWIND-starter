@@ -25,20 +25,9 @@ Terminal 2: Livereload → obserwuje PHP, automatyczne odświeżanie przeglądar
 
 Dzięki npm run start uruchamiasz oba procesy równocześnie (wymaga npm-run-all).
 
-## THEME-NAME/
+## Nazwa-THEME/
 
-│
-├─ src/
-│ ├─ css/ <- Tailwind input.css
-│ └─ ts/ <- TypeScript
-├─ dist_assets/ <- skompilowany CSS/JS
-├─ \*.php <- pliki motywu (index.php, header.php, footer.php itd.)
-├─ tailwind.config.js
-├─ vite.config.js
-├─ package.json
-├─ tsconfig.json
-├─ postcss.config.js
-└─ functions.php
+![UKŁad](/dist/assets/układ.png)
 
 ## Notes
 

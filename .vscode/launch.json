@@ -1,0 +1,37 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Listen for Xdebug",
+			"type": "php",
+			"request": "launch",
+			"port": 9003
+		},
+		{
+			"name": "Run PHP (CLI like Node)",
+			"type": "php",
+			"request": "launch",
+			"program": "${file}",
+			"cwd": "${fileDirname}",
+			"port": 9003
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "TS: Debug aktualny plik",
+			"program": "${workspaceFolder}/dist/${fileBasenameNoExtension}.js",
+			"preLaunchTask": "tsc: build - tsconfig.json",
+			"outFiles": ["${workspaceFolder}/dist/**/*.js"],
+			"sourceMaps": true,
+			"skipFiles": ["<node_internals>/**"]
+		},
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Debug in Chrome",
+			"url": "http://localhost:3000",
+			"webRoot": "${workspaceFolder}/TS",
+			"sourceMaps": true
+		}
+	]
+}

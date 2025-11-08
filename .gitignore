@@ -1,0 +1,5 @@
+node_modules/
+style.css
+package-lock.json
+*.log
+vendor/giacocorsiglia/wordpress-stubs/

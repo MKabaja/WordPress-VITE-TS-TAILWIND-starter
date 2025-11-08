@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"target": "esnext", // nowoczesny JS
+		"module": "esnext", // ES moduły dla Vite
+		"moduleResolution": "node", // rozwiązywanie modułów jak w node
+		"strict": true, // ścisła kontrola typów
+		"esModuleInterop": true, // import CommonJS modułów
+		"skipLibCheck": true, // ignoruj sprawdzanie typów bibliotek
+		"forceConsistentCasingInFileNames": true // wymuszaj wielkość liter w importach
+	},
+	"include": ["src/ts/**/*"] // uwzględnij wszystkie pliki TS w folderze src/ts
+}
